@@ -13,9 +13,9 @@
     "test": "vitest"
   },
   "lint-staged": {
-    "src/*.{ts,tsx}": [
+    "src/**/*.{ts,tsx}": [
       "npm run format",
-      "npm  test --findRelatedTests --bail"
+      "npx vitest related --run --bail"
     ]
   },
   "dependencies": {
