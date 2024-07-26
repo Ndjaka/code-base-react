@@ -13,7 +13,7 @@
     "test": "vitest"
   },
   "lint-staged": {
-    "*.{ts,tsx}": [
+    "src/*.{ts,tsx}": [
       "npm run format",
       "npm  test --findRelatedTests --bail"
     ]
