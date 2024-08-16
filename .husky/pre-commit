@@ -1,2 +1,2 @@
 # .husky/pre-commit
-npx --no-install lint-staged --verbose
+npx --no-install lint-staged
